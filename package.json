@@ -1,0 +1,15 @@
+{
+    "name": "nba-scraper-email",
+    "version": "1.0.0",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "cheerio": "^1.0.0",
+      "dotenv": "^16.4.5",
+      "node-fetch": "^2.6.7",
+      "nodemailer": "^6.9.15"
+    }
+  }
+  

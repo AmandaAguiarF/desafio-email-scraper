@@ -1,0 +1,25 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Projeto de scraper para coleta de dados e envio de e-mail",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "cheerio-select": "^2.1.0",
+    "dom-serializer": "^2.0.0",
+    "domhandler": "^5.0.3",
+    "domutils": "^3.1.0",
+    "dotenv": "^16.4.5",
+    "encoding-sniffer": "^0.2.0",
+    "htmlparser2": "^9.1.0",
+    "parse5": "^7.1.2",
+    "parse5-htmlparser2-tree-adapter": "^7.0.0",
+    "parse5-parser-stream": "^7.1.2",
+    "undici": "^6.19.5",
+    "whatwg-mimetype": "^4.0.0"
+  }
+}
